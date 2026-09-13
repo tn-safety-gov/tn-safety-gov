@@ -329,6 +329,7 @@ body {
     border-radius: 6px;
     padding: 20px 16px;
     margin: 20px 15px;
+    margin-bottom: 20px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
@@ -487,12 +488,10 @@ input[type="text"]:focus {
     border: 1px solid #cbd5e1;
     border-bottom: 3px solid #cbd5e0;
     border-radius: 4px;
-    font-size: 15px;
     text-align: center;
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
     color: #4a5568;
-    outline: none;
     background-color: #f2f4f7;
     transition: border-color 0.2s;
     font-weight: 600;
@@ -580,9 +579,10 @@ input[type="text"]:focus {
 @media (max-width:682px) {
     .card-body {
         flex-direction: column;
+        width: 100%;
     }
     .logo-box {
         height: 35px;
-        width:100%;
+        width: 100%; 
     }
 }
