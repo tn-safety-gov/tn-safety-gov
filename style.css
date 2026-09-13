@@ -366,7 +366,7 @@ body {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 10px;
-    width: 50%;
+    width: 100%;
 }
 
 .card-logos span {
@@ -582,7 +582,6 @@ input[type="text"]:focus {
         width: 100%;
     }
     .logo-box {
-        height: 35px;
-        width: 100%; 
+        height: 55px;
     }
 }
