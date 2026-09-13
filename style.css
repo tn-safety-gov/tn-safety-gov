@@ -583,5 +583,6 @@ input[type="text"]:focus {
     }
     .logo-box {
         height: 35px;
+        width:100%;
     }
 }
